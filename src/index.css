@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  background-color: hsl(185, 75%, 39%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 30rem;
+  height: 35rem;
+
+  border-radius: 20px;
+}
+.profile {
+  width: 100%;
+  height: 70%;
+}
+
+.top {
+  background-image: url(./images/bg-pattern-card.svg);
+  height: 45%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.bottom {
+  background-color: #fff;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bottom span,
+.bottom small {
+  color: hsl(0, 0%, 59%);
+}
+.bottom img {
+  position: absolute;
+  top: -50%;
+  transform: translateY(50%);
+  width: 7rem;
+  height: 7rem;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.numbers {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  width: 100%;
+  border-top: 1px solid hsl(0, 0%, 59%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.numbers div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.numbers div h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.numbers div small {
+  margin-top: 0.5rem;
+}
