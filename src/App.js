@@ -1,11 +1,11 @@
 import Card from "./Components/Card";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <Card />
     </div>
   );
-}
+};
 
 export default App;

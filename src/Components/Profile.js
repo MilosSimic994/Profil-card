@@ -1,4 +1,5 @@
 import Victor from "../images/image-victor.jpg";
+
 const Profile = () => {
   return (
     <div className="profile">
